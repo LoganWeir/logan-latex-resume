@@ -1,4 +1,4 @@
-Deedy-Resume-Reversed
+Logan-Resume
 =========================
 
 A **one-page**, **two asymmetric column** resume template in **XeTeX**.
@@ -10,7 +10,7 @@ It is licensed under the Apache License 2.0.
 
 Wanted to use LaTeX to more easily adapt my resume to job postings, and I was tried of Figma installing login items on my system.
 
-This fork of the [Deedy-Resume-Reversed by ZDTaylor](https://github.com/ZDTaylor/Deedy-Resume-Reversed).
+This is a fork of [Deedy-Resume-Reversed by ZDTaylor](https://github.com/ZDTaylor/Deedy-Resume-Reversed).
 
 # Dependencies
 
