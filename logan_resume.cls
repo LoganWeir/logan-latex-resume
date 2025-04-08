@@ -1,7 +1,6 @@
 % Intro Options
-\ProvidesClass{deedy-resume-reversed}[2018/09/22 CV class]
+\ProvidesClass{logan_resume}
 \NeedsTeXFormat{LaTeX2e}
-\DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
   \PassOptionsToClass{\CurrentOption}{article}
 }
@@ -9,12 +8,10 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
+\usepackage[hmargin=1pc, vmargin=2pc]{geometry}
 \usepackage[hidelinks]{hyperref}
-
-% Publications
-\usepackage{cite}
-\renewcommand\refname{\vskip -1.5cm}
+\usepackage{graphicx}
+\usepackage[none]{hyphenat}
 
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -38,17 +35,25 @@
 Last Updated on \today
 \end{textblock}}
 
-% Name command
-\newcommand{\namesection}[2]{
-\centering{
-\fontsize{40pt}{60pt}
-\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1
-} \\[5pt]
-\centering{
-\color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #2}
-\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
-\vspace{-15pt}
+% % Name command
+% \newcommand{\namesection}[1]{
+%   {
+%     \raggedright
+%     \fontsize{28pt}{28pt}
+%     \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont
+%     #1
+%   }
+% }
+
+\newcommand{\namesection}[1]{%
+  \fbox{%
+    \parbox{\textwidth}{%
+      \raggedright
+      \fontsize{28pt}{28pt}
+      \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont
+      #1
+    }%
+  }%
 }
 
 % Section seperators
@@ -75,6 +80,22 @@ Last Updated on \today
 % Location command
 \newcommand{\location}[1]{
 \color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+
+\newcommand{\runsubsectionimg}[4]{%
+    \noindent%
+    \begin{minipage}[t]{0.06\textwidth}%
+        \vspace{0pt}%
+        \includegraphics[height=2em]{#1}%
+    \end{minipage}%
+    \hspace{0.5em}%
+    \begin{minipage}[t]{0.94\textwidth}%
+        \vspace{0pt}%
+        \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#2}  \normalfont
+        \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#3 \\} \normalfont
+        \color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#4\\} \normalfont
+    \end{minipage}%
+    \vspace{-5pt}
+}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
