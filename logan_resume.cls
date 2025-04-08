@@ -80,7 +80,7 @@
         \vspace{0pt}%
         \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{14pt}\selectfont\uppercase {#2} \normalfont
         ~~|~~
-        \color{subheadings}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont {#3 \par} \normalfont
+        \color{subheadings}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont {#3 \par} \normalfont
         \color{subheadings}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont {#4} \normalfont
     \end{minipage}%
 }
