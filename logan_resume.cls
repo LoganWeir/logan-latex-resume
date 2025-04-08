@@ -38,7 +38,7 @@
     \fontsize{28pt}{34pt}
     \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont
     #1\par
-    \vspace{8pt}
+    \vspace{12pt}
     \fontsize{12pt}{16pt}\selectfont
     #2\par
     \normalfont

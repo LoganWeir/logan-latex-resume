@@ -19,7 +19,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nameblurbsection{Logan Weir}{Proactive, well rounded engineer and manager with a decade of experience helping companies deliver value and/or squash chaos. I've helped robots paint nails and shoppers checkout with AI.}
-\vspace{12pt}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -47,7 +47,7 @@
 
 \runsubsectionimg{img/standard.jpg}{Standard AI}{Data Engineer, Machine Learning }{September 2019 - December 2020 | San Francisco, CA}
 \begin{tightemize}
-\item Built Data Warehouse in Qubole, led migration to Databricks.
+\item Setup and populated company's first data warehouse in Qubole. Ran SQL classes to help democratize data. Led migration to Databricks.
 \end{tightemize}
 \sectionsep
 
@@ -58,6 +58,11 @@
 \sectionsep
 
 \runsubsectionimg{img/appallicious.jpg}{Appallicious}{Data Scientist}{November 2013 - October 2018 | San Francisco, CA}
+\begin{tightemize}
+\item Researched data sources, optimized map layer rendering, deployed containerized data-miners, build frontend and backend systems.
+\end{tightemize}
+\sectionsep
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
