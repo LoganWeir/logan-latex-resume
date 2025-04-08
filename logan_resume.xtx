@@ -8,26 +8,21 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \lastupdated
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     COLUMN ONE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{minipage}[t]{0.60\textwidth}
+% Invisible element to align both columns at the top of the page
+\vspace{0pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     TITLE NAME
+%     NAME / BLURB
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\namesection{Logan Weir}
+\nameblurbsection{Logan Weir}{Proactive, well rounded engineer and manager with a decade of experience helping companies deliver value and/or squash chaos. I've helped robots paint nails and shoppers checkout with AI.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -35,7 +30,6 @@
 
 \section{Experience}
 \runsubsectionimg{img/clockwork.jpg}{Clockwork}{|  Member of Technical Staff }{March 2023 – January 2025 | San Francisco, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
 \item Built the customer self-help layer and maintenance mode which together reduced support calls by 30\%.
@@ -47,7 +41,6 @@
 \sectionsep
 
 \runsubsectionimg{img/standard.jpg}{Standard AI}{|  Senior Engineering Manager }{December 2020 – September 2022 | San Francisco, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company’s Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
 \item Drove ‘Catalog’ service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
@@ -55,21 +48,18 @@
 \sectionsep
 
 \runsubsectionimg{img/standard.jpg}{Standard AI}{|  Data Engineer, Machine Learning }{September 2019 – December 2020 | San Francisco, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Built Data Warehouse in Qubole, led migration to Databricks.
 \end{tightemize}
 \sectionsep
 
 \runsubsectionimg{img/hustle.jpg}{Hustle}{|  Machine Learning Engineer }{October 2018 – July 2019 | San Francisco, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Built company’s ETL processes in Airflow and analyzed chat sentiment to demonstrate product efficacy to clients.
 \end{tightemize}
 \sectionsep
 
 \runsubsectionimg{img/appallicious.jpg}{Appallicious}{|  Data Scientist }{November 2013 – October 2018 | San Francisco, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -81,6 +71,8 @@
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.33\textwidth}
+% Invisible element to align both columns at the top of the page
+\vspace{0pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Contact
@@ -126,7 +118,7 @@ Retool / Datadog / Sentry\\
 \sectionsep
 
 \subsection{Management}
-Hiring / Firing\\
+Hiring / PIPs\\
 OKR Definition / Tracking\\
 Team Syncs / Jira / Offsites\\
 Product / Design \\
@@ -161,4 +153,4 @@ Biking / Bikepacking\\
 D\&D / Dungeon Master
 
 \end{minipage}
-\end{document}  \documentclass[]{article}
+\end{document}

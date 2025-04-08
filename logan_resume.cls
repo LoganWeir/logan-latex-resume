@@ -15,7 +15,6 @@
 
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor}
-\definecolor{date}{HTML}{666666}
 \definecolor{primary}{HTML}{2b2b2b}
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
@@ -25,35 +24,20 @@
 \setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-BolIta,BoldFont=Lato-Bol,ItalicFont=Lato-RegIta]{Lato-Reg}
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
 
-% Date command
-\usepackage[absolute]{textpos}
-\usepackage[UKenglish]{isodate}
-\setlength{\TPHorizModule}{1mm}
-\setlength{\TPVertModule}{1mm}
-\newcommand{\lastupdated}{\begin{textblock}{60}(155,5)
-\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont
-Last Updated on \today
-\end{textblock}}
-
-% % Name command
-% \newcommand{\namesection}[1]{
-%   {
-%     \raggedright
-%     \fontsize{28pt}{28pt}
-%     \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont
-%     #1
-%   }
-% }
-
-\newcommand{\namesection}[1]{%
-  \fbox{%
-    \parbox{\textwidth}{%
-      \raggedright
-      \fontsize{28pt}{28pt}
-      \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont
-      #1
-    }%
-  }%
+% Name command
+\newcommand{\nameblurbsection}[2]{
+  {
+    \raggedright
+    \fontsize{28pt}{28pt}
+    \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont
+    #1
+    \vspace{5pt}
+  }
+  \\
+  {
+    \raggedright
+    #2
+  }
 }
 
 % Section seperators
@@ -81,6 +65,7 @@ Last Updated on \today
 \newcommand{\location}[1]{
 \color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
+% Subsection
 \newcommand{\runsubsectionimg}[4]{%
     \noindent%
     \begin{minipage}[t]{0.06\textwidth}%
@@ -97,8 +82,16 @@ Last Updated on \today
     \vspace{-5pt}
 }
 
+% Blurb command
+\newcommand{\blurb}[1]{
+    {
+      \raggedright #1
+    }
+}
+
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
-\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
+  \begin{itemize}\itemsep1pt \parskip0pt \parsep0pt
+}
 {\end{itemize}\vspace{-\topsep}}
 
