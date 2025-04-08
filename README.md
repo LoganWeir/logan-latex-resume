@@ -6,20 +6,23 @@ Uses free, clean fonts - *Lato* (and its various variants) and *Raleway*.
 
 It is licensed under the Apache License 2.0.
 
-## Motivation
+# Motivation
 
 Wanted to use LaTeX to more easily adapt my resume to job postings, and I was tried of Figma installing login items on my system.
 
 This fork of the [Deedy-Resume-Reversed by ZDTaylor](https://github.com/ZDTaylor/Deedy-Resume-Reversed).
 
-
-## Dependencies
+# Dependencies
 
 Compiles with **XeTeX**
 
-## Known Issues:
-1. Overflows onto second page if any column's contents are more than the vertical limit
-2. Hacky space on the first bullet point on the second column.
+# Known Issues:
+1. Completely overflows onto second page if any column's contents are more than the vertical limit
+2. Hacky fix for 'Experience' Title having mystery space beneath it
+
+# Output
+
+![](logan_resume_example.png)
 
 ## License
     Original Work Copyright 2014 Debarghya Das
@@ -37,3 +40,4 @@ Compiles with **XeTeX**
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+ 
