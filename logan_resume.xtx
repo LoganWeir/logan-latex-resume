@@ -5,62 +5,59 @@
 \fancyhf{}
 
 \begin{document}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN ONE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{minipage}[t]{0.60\textwidth}
 % Invisible element to align both columns at the top of the page
 \vspace{0pt}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     NAME / BLURB
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \nameblurbsection{Logan Weir}{Proactive, well rounded engineer and manager with a decade of experience helping companies deliver value and/or squash chaos. I've helped robots paint nails and shoppers checkout with AI.}
+\vspace{12pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Experience}
-\runsubsectionimg{img/clockwork.jpg}{Clockwork}{|  Member of Technical Staff }{March 2023 – January 2025 | San Francisco, CA}
+% Hack because I can't figure out how to remove the extra line under experience
+\vspace{-6pt}
+\runsubsectionimg{img/clockwork.jpg}{Clockwork}{Member of Technical Staff }{March 2023 - January 2025 | San Francisco, CA}
 \begin{tightemize}
 \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
 \item Built the customer self-help layer and maintenance mode which together reduced support calls by 30\%.
 \item Built appointment data pipeline, migrated to realtime solution so support could jump into ongoing appointments w/ context.
 \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 50\%.
 \item Automated robot hard drive bringup with Ansible.
-\item Designed and built experimental top coat and gel coat GUI’s. Recorded A/V content for the GUI and acted as a hand model.
+\item Designed and built experimental top coat and gel coat GUI's. Recorded A/V content for the GUI and acted as a hand model.
 \end{tightemize}
 \sectionsep
 
-\runsubsectionimg{img/standard.jpg}{Standard AI}{|  Senior Engineering Manager }{December 2020 – September 2022 | San Francisco, CA}
+\runsubsectionimg{img/standard.jpg}{Standard AI}{Senior Engineering Manager}{December 2020 - September 2022 | San Francisco, CA}
 \begin{tightemize}
-\item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company’s Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
-\item Drove ‘Catalog’ service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
+\item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
+\item Drove 'Catalog' service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
 \end{tightemize}
 \sectionsep
 
-\runsubsectionimg{img/standard.jpg}{Standard AI}{|  Data Engineer, Machine Learning }{September 2019 – December 2020 | San Francisco, CA}
+\runsubsectionimg{img/standard.jpg}{Standard AI}{Data Engineer, Machine Learning }{September 2019 - December 2020 | San Francisco, CA}
 \begin{tightemize}
 \item Built Data Warehouse in Qubole, led migration to Databricks.
 \end{tightemize}
 \sectionsep
 
-\runsubsectionimg{img/hustle.jpg}{Hustle}{|  Machine Learning Engineer }{October 2018 – July 2019 | San Francisco, CA}
+\runsubsectionimg{img/hustle.jpg}{Hustle}{Machine Learning Engineer}{October 2018 - July 2019 | San Francisco, CA}
 \begin{tightemize}
-\item Built company’s ETL processes in Airflow and analyzed chat sentiment to demonstrate product efficacy to clients.
+\item Built company's ETL processes in Airflow and analyzed chat sentiment to demonstrate product efficacy to clients.
 \end{tightemize}
 \sectionsep
 
-\runsubsectionimg{img/appallicious.jpg}{Appallicious}{|  Data Scientist }{November 2013 – October 2018 | San Francisco, CA}
-\sectionsep
+\runsubsectionimg{img/appallicious.jpg}{Appallicious}{Data Scientist}{November 2013 - October 2018 | San Francisco, CA}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -98,9 +95,9 @@
 
 \section{Skills}
 \subsection{Coding}
-Python / Ruby\\
-Javascript / React\\
-HTML / SCSS\\
+Python\\
+Typescript / React\\
+HTML / SCSS
 \sectionsep
 
 \subsection{Data}
@@ -108,20 +105,21 @@ SQL / Postgres / MongoDB\\
 Pubsub / Airflow\\
 PySpark / Databricks / Bigquery\\
 Looker / Sisence\\
-Qubole / Presto\\
+Qubole / Presto
 \sectionsep
 
 \subsection{Infrastructure}
 GCP / GCS / GCE / GAE\\
 Docker / Ansible / Terraform\\
-Retool / Datadog / Sentry\\
+Retool / Datadog / Sentry
 \sectionsep
 
 \subsection{Management}
 Hiring / PIPs\\
 OKR Definition / Tracking\\
 Team Syncs / Jira / Offsites\\
-Product / Design \\
+Product / Design
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -129,16 +127,20 @@ Product / Design \\
 
 \section{Education}
 
-\descript{Galvanize}
-Data Science Bootcamp\\
-Spring 2018\\
+\education{Galvanize}{Data Science Bootcamp\\Spring 2018}
 \sectionsep
 
-\descript{Fordham University at Lincoln Center}
-B.A. in Economics\\
-Class of 2012\\
+\education{Fordham University at Lincoln Center}{B.A. in Economics\\Class of 2012}
 \sectionsep
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+
+\raggedright American Red Cross Lifeguarding and First Aid Certification
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     INTERESTS
