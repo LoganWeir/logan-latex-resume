@@ -27,7 +27,7 @@
 \section{Experience}
 % Hack because I can't figure out how to remove the extra line under experience
 \vspace{-6pt}
-\runsubsectionimg{img/clockwork.jpg}{Clockwork}{Member of Technical Staff }{March 2023 - January 2025 | San Francisco, CA}
+\runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
 \begin{tightemize}
 \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
 \item Built the customer self-help layer and maintenance mode which together reduced support calls by 30\%.
@@ -45,7 +45,7 @@
 \end{tightemize}
 \sectionsep
 
-\runsubsectionimg{img/standard.jpg}{Standard AI}{Data Engineer, Machine Learning }{September 2019 - December 2020 | San Francisco, CA}
+\runsubsectionimg{img/standard.jpg}{Standard AI}{Data Engineer, Machine Learning}{September 2019 - December 2020 | San Francisco, CA}
 \begin{tightemize}
 \item Setup and populated company's first data warehouse in Qubole. Ran SQL classes to help democratize data. Led migration to Databricks.
 \end{tightemize}
@@ -101,29 +101,29 @@
 \section{Skills}
 \subsection{Coding}
 Python\\
-Typescript / React\\
-HTML / SCSS
+Typescript, React\\
+HTML, SCSS
 \sectionsep
 
 \subsection{Data}
-SQL / Postgres / MongoDB\\
-Pubsub / Airflow\\
-PySpark / Databricks / Bigquery\\
-Looker / Sisence\\
-Qubole / Presto
+SQL, Postgres, MongoDB\\
+Pubsub, Airflow\\
+PySpark, Databricks, Bigquery\\
+Looker, Sisence\\
+Qubole, Presto
 \sectionsep
 
 \subsection{Infrastructure}
-GCP / GCS / GCE / GAE\\
-Docker / Ansible / Terraform\\
-Retool / Datadog / Sentry
+GCP, GCS, GCE, GAE\\
+Docker, Ansible, Terraform\\
+Retool, Datadog, Sentry
 \sectionsep
 
 \subsection{Management}
-Hiring / PIPs\\
-OKR Definition / Tracking\\
-Team Syncs / Jira / Offsites\\
-Product / Design
+Hiring, PIPs\\
+OKR Definition, Tracking\\
+Team Syncs, Jira, Offsites\\
+Product, Design
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -135,7 +135,7 @@ Product / Design
 \education{Galvanize}{Data Science Bootcamp\\Spring 2018}
 \sectionsep
 
-\education{Fordham University at Lincoln Center}{B.A. in Economics\\Class of 2012}
+\education{Fordham University}{B.A. in Economics\\Class of 2012}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
