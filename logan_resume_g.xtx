@@ -1,0 +1,185 @@
+% general resume
+
+\documentclass[]{logan_resume}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear header/footer
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    %
+%           COLUMN ONE               %
+%                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.60\textwidth}
+  % Invisible element to align both columns at the top of the page
+  \vspace{0pt}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %         NAME / BLURB               %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \nameblurbsection{Logan Weir}{Proactive, well rounded engineer and manager with a decade of experience helping companies deliver value and/or squash chaos. I've helped robots paint nails and shoppers checkout with AI.}
+  \sectionsep
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %           EXPERIENCE               %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Experience}
+  % Hack because I can't figure out how to remove the extra line under experience
+  \vspace{-6pt}
+
+  % --- Clockwork ---
+  \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
+  \begin{tightemize}
+    \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
+    \item Built the customer self-help layer and maintenance mode which together reduced support calls by 30\%.
+    \item Built appointment data pipeline, migrated to realtime solution so support could jump into ongoing appointments w/ context.
+    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 50\%.
+    \item Automated robot hard drive bringup with Ansible.
+    \item Designed and built experimental top coat and gel coat GUI's. Recorded A/V content for the GUI and acted as a hand model.
+  \end{tightemize}
+  \sectionsep
+
+  % --- Standard AI Combined Entry ---
+  \noindent% Prevent indentation
+  \begin{minipage}[t]{0.06\textwidth}% Image
+      \vspace{0pt}% Align top
+      \includegraphics[height=2.1em]{img/standard.jpg}%
+  \end{minipage}%
+  \hspace{0.75em}% Space between image and text
+  \begin{minipage}[t]{0.94\textwidth}% Text
+      \vspace{0pt}% Align top
+      % Company Name Heading
+      \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{14pt}\selectfont\uppercase{Standard AI} \normalfont
+      % Total duration/location
+      \par\vspace{1pt} % New line, small space
+      \color{subheadings}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont {September 2019 - September 2022 | San Francisco, CA} \normalfont
+      \par\vspace{4pt} % Add space before the first role description
+  \end{minipage}
+
+  % Role 1: Senior Engineering Manager
+  \vspace{2pt} % Add small space before the role title
+  \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Senior Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Nov 2021 - Sep 2022)}
+  \par
+  % Role 2: Engineering Manager
+  \vspace{4pt} % Add a bit more space between titles not separated by bullet points
+  \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Dec 2020 - Nov 2021)}
+  \hspace*{1em}\begin{tightemize}
+      \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
+      \item Drove 'Catalog' service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
+  \end{tightemize}
+  \vspace{6pt} % Add some space between the roles
+
+  % Role 3: Data Engineer, Machine Learning
+  \vspace{2pt} % Add small space before the role title
+  \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Data Engineer, Machine Learning} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Sep 2019 - Dec 2020)}
+  \hspace*{1em}\begin{tightemize}
+      \item Setup and populated company's first data warehouse in Qubole. Ran SQL classes to help democratize data. Led migration to Databricks.
+  \end{tightemize}
+  \sectionsep % Separator after the entire Standard AI block
+  % --- End of Standard AI Combined Entry ---
+
+  % --- Hustle ---
+  \runsubsectionimg{img/hustle.jpg}{Hustle}{Machine Learning Engineer}{October 2018 - July 2019 | San Francisco, CA}
+  \begin{tightemize}
+    \item Built company's ETL processes in Airflow and analyzed chat sentiment to demonstrate product efficacy to clients.
+  \end{tightemize}
+  \sectionsep
+
+  % --- Appallicious ---
+  \runsubsectionimg{img/appallicious.jpg}{Appallicious}{Data Scientist}{November 2013 - October 2018 | San Francisco, CA}
+  \begin{tightemize}
+    \item Researched data sources, optimized map layer rendering, deployed containerized data-miners, build frontend and backend systems.
+  \end{tightemize}
+  \sectionsep
+
+\end{minipage} % End Column One
+\hfill % Space between columns
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    %
+%           COLUMN TWO               %
+%                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.33\textwidth}
+  % Invisible element to align both columns at the top of the page
+  \vspace{0pt}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %           CONTACT                  %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Contact}
+  \href{mailto:loganweir@gmail.com}{loganweir@gmail.com}\\
+  \href{tel:14158162711}{(415) 816-2711}
+  \sectionsepright
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %           LINKS                    %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Links}
+  \href{https://www.linkedin.com/in/loganweir/}{linkedin.com/in/loganweir/}\\
+  \href{https://github.com/LoganWeir}{github.com/LoganWeir}
+  \sectionsepright
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %           SKILLS                   %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Skills}
+
+  \subsection{Coding}
+  Python\\
+  Typescript, React\\
+  HTML, SCSS
+  \sectionsepright
+
+  \subsection{Data}
+  SQL, Postgres, MongoDB\\
+  Pubsub, Airflow\\
+  PySpark, Databricks, Bigquery\\
+  Looker, Sisence\\
+  Qubole, Presto
+  \sectionsepright
+
+  \subsection{Infrastructure}
+  GCP, GCS, GCE, GAE\\
+  Docker, Ansible, Terraform\\
+  Retool, Datadog, Sentry
+  \sectionsepright
+
+  \subsection{Management}
+  Hiring, PIPs\\
+  OKR Definition, Tracking\\
+  Team Syncs, Jira, Offsites\\
+  Product, Design
+  \sectionsepright
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %           INDUSTRIES               %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Industries}
+  Robotics / Beauty / CSX\\
+  Retail / Computer Vision / AI\\
+  P2P Messaging / OpenGov
+  \sectionsepright
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %           EDUCATION                %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Education}
+
+  \education{Galvanize}{Data Science Bootcamp\\Spring 2018}
+  \sectionsepright
+
+  \education{Fordham University}{B.A. in Economics\\Class of 2012}
+  \sectionsepright
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %           CERTIFICATIONS           %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Certifications}
+  \raggedright American Red Cross Lifeguarding and First Aid Certification
+
+\end{minipage} % End Column Two
+
+\end{document}
