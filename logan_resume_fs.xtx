@@ -34,9 +34,9 @@
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
-    \item Built the customer self-help layer and maintenance mode which together reduced support calls by 30\%.
+    \item Built the customer self-help layer and maintenance mode which together reduced support calls by 33\%.
     \item Built appointment data pipeline, migrated to realtime solution so support could jump into ongoing appointments w/ context.
-    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 50\%.
+    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 55\%.
     % \item Automated robot hard drive bringup with Ansible.
     % \item Designed and built experimental top coat and gel coat GUI's. Recorded A/V content for the GUI and acted as a hand model.
   \end{tightemize}

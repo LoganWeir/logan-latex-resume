@@ -34,9 +34,9 @@
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
-    \item Built the customer self-help layer and maintenance mode which together reduced support calls by 30\%.
+    \item Built the customer self-help layer and maintenance mode which together reduced support calls by ~33\%.
     \item Built appointment data pipeline, migrated to realtime solution so support could jump into ongoing appointments w/ context.
-    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 50\%.
+    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 55\%.
     \item Automated robot hard drive bringup with Ansible.
     \item Designed and built experimental top coat and gel coat GUI's. Recorded A/V content for the GUI and acted as a hand model.
   \end{tightemize}
@@ -68,7 +68,7 @@
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Dec 2020 - Nov 2021)}
   \hspace*{1em}\begin{tightemize}
       \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
-      \item Drove 'Catalog' service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
+      \item Drove 'Catalog' service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 70\%.
   \end{tightemize}
   \vspace{6pt} % Add some space between the roles
 
@@ -128,13 +128,13 @@
   \section{Skills}
 
   \subsection{Coding}
-  Python\\
+  Python, FastAPI, Django\\
   Typescript, React\\
-  HTML, SCSS
   \sectionsepright
 
   \subsection{Data}
   SQL, Postgres, MongoDB\\
+  REST, gRPC, protobuf\\
   Pubsub, Airflow\\
   PySpark, Databricks, Bigquery\\
   Looker, Sisence\\
@@ -159,8 +159,8 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Industries}
   Robotics / Beauty / CSX\\
-  Retail / Computer Vision / AI\\
-  P2P Messaging / OpenGov
+  Retail / P2P Messaging / OpenGov\\
+  Computer Vision / NLP / AI
   \sectionsepright
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
