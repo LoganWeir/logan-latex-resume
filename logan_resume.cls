@@ -28,8 +28,9 @@
 \titlespacing{\section}{0pt}{0pt}{5pt}
 \titlespacing{\subsection}{0pt}{0pt}{2pt}
 
-% Seperation command
-\newcommand{\sectionsep}{\vspace{12pt}}
+% Seperation commands
+\newcommand{\sectionsep}{\vspace{10pt}}
+\newcommand{\sectionsepright}{\vspace{14pt}}
 
 % Name command
 \newcommand{\nameblurbsection}[2]{
@@ -38,7 +39,7 @@
     \fontsize{28pt}{34pt}
     \fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont
     #1\par
-    \vspace{12pt}
+    \vspace{10pt}
     \fontsize{12pt}{16pt}\selectfont
     #2\par
     \normalfont
