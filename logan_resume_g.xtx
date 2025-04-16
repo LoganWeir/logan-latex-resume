@@ -68,7 +68,7 @@
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Dec 2020 - Nov 2021)}
   \hspace*{1em}\begin{tightemize}
       \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
-      \item Drove 'Catalog' service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 70\%.
+      \item Designed and drove 'Catalog' API update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
   \end{tightemize}
   \vspace{6pt} % Add some space between the roles
 
@@ -128,13 +128,15 @@
   \section{Skills}
 
   \subsection{Coding}
-  Python, FastAPI, Django\\
-  Typescript, React
+  Python\\
+  Typescript, React\\
+  REST, Websocket\\
+  Protobuf, marshmallow\\
+  FastAPI, Django, Flask
   \sectionsepright
 
   \subsection{Data}
   SQL, Postgres, MongoDB\\
-  REST, gRPC, protobuf\\
   Pubsub, Airflow\\
   PySpark, Databricks, Bigquery\\
   Looker, Sisence\\
@@ -150,17 +152,16 @@
   \subsection{Management}
   Hiring, PIPs\\
   OKR Definition, Tracking\\
-  Team Syncs, Jira, Offsites\\
-  Product, Design
+  Team Syncs, Jira, Offsites
   \sectionsepright
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %           INDUSTRIES               %
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Industries}
-  Robotics / Beauty / CSX\\
-  Retail / P2P Messaging / OpenGov\\
-  Computer Vision / NLP / AI
+  Robotics / Beauty / CX\\
+  Retail / Computer Vision / AI\\
+  P2P Messaging / OpenGov
   \sectionsepright
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

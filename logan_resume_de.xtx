@@ -33,12 +33,9 @@
   % --- Clockwork ---
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
+    \item Built ETL pipeline to coalate robot telemetry, user actions, and data from Zendesk, enabling NPS analytics.
+    \item Developed realtime data pipeline with events saved on robot, sychronized to a cloud database, and displayed in a live timeline, enabling faster response time from the support team.
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
-    \item Built the customer self-help layer and maintenance mode which together reduced support calls by 30\%.
-    \item Built appointment data pipeline, migrated to realtime solution so support could jump into ongoing appointments w/ context.
-    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 50\%.
-    % \item Automated robot hard drive bringup with Ansible.
-    % \item Designed and built experimental top coat and gel coat GUI's. Recorded A/V content for the GUI and acted as a hand model.
   \end{tightemize}
   \sectionsep
 
@@ -68,7 +65,8 @@
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Dec 2020 - Nov 2021)}
   \hspace*{1em}\begin{tightemize}
       \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
-      \item Drove 'Catalog' service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
+      \item Drove 'Catalog' API update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
+      \item Wrote most SQL queries for the team's internal Retool applications.
   \end{tightemize}
   \vspace{6pt} % Add some space between the roles
 
@@ -76,7 +74,9 @@
   \vspace{2pt} % Add small space before the role title
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Data Engineer, Machine Learning} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Sep 2019 - Dec 2020)}
   \hspace*{1em}\begin{tightemize}
-      \item Setup and populated company's first data warehouse in Qubole. Ran SQL classes to help democratize data. Led migration to Databricks.
+      \item Coordinated across teams to setup and populate the company's first data warehouse in Qubole. Engineered a new JDBC Socket Factory connection to integrate with Google Cloud SQL.
+      \item Ran company-wide SQL classes to help democratize data. 
+      \item Led migration to Databricks, helped hire replacement Data Engineer.
   \end{tightemize}
   \sectionsep % Separator after the entire Standard AI block
   % --- End of Standard AI Combined Entry ---
@@ -91,7 +91,7 @@
   % --- Appallicious ---
   \runsubsectionimg{img/appallicious.jpg}{Appallicious}{Data Scientist}{November 2013 - October 2018 | San Francisco, CA}
   \begin{tightemize}
-    \item Researched data sources, optimized map layer rendering, deployed containerized data-miners, build frontend and backend systems.
+    \item Researched and onboarded data sources, deployed containerized data-miners, built frontend and backend systems.
   \end{tightemize}
   \sectionsep
 
@@ -130,7 +130,9 @@
   \subsection{Coding}
   Python\\
   Typescript, React\\
-  HTML, SCSS
+  REST, Websocket\\
+  Protobuf, marshmallow\\
+  FastAPI, Django, Flask
   \sectionsepright
 
   \subsection{Data}
@@ -150,15 +152,14 @@
   \subsection{Management}
   Hiring, PIPs\\
   OKR Definition, Tracking\\
-  Team Syncs, Jira, Offsites\\
-  Product, Design
+  Team Syncs, Jira, Offsites
   \sectionsepright
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %           INDUSTRIES               %
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Industries}
-  Robotics / Beauty / CSX\\
+  Robotics / Beauty / CX\\
   Retail / Computer Vision / AI\\
   P2P Messaging / OpenGov
   \sectionsepright
