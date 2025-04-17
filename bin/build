@@ -1,47 +1,97 @@
 #!/usr/bin/env bash
 
+TMP_DIR="latex_output"
+RESUME_TYPES=("g" "be" "fs" "de")
+
+# Function to build a single resume type
+build_resume() {
+    local type=$1
+    local input_file="logan_resume_${type}.xtx"
+    local output_file="logan_resume_${type}.pdf"
+    local tmp_pdf_path="${TMP_DIR}/logan_resume_${type}.pdf"
+
+    # Check if the input file exists
+    if [ ! -f "$input_file" ]; then
+        echo "Error: Input file '$input_file' not found. Skipping."
+        return 1
+    fi
+
+    echo "Building ${output_file} from ${input_file}..."
+
+    mkdir -p "$TMP_DIR"
+    # Run xelatex twice for cross-referencing if needed, suppress most output
+    xelatex -interaction=batchmode -output-directory="$TMP_DIR" "$input_file" > /dev/null 2>&1
+    xelatex -interaction=batchmode -output-directory="$TMP_DIR" "$input_file" > /dev/null 2>&1
+
+    # Check if xelatex was successful and created the PDF
+    if [ -f "$tmp_pdf_path" ]; then
+        mv "$tmp_pdf_path" "$output_file"
+        echo "Successfully created ${output_file}"
+        return 0
+    else
+        echo "Error: Failed to create ${output_file}. Check LaTeX logs in ${TMP_DIR} (e.g., ${TMP_DIR}/logan_resume_${type}.log)."
+        # Attempt to show the error from the log if possible
+        if [ -f "${TMP_DIR}/logan_resume_${type}.log" ]; then
+            echo "--- Last lines of log file (${TMP_DIR}/logan_resume_${type}.log):---"
+            tail -n 15 "${TMP_DIR}/logan_resume_${type}.log"
+            echo "--------------------------------------------------------------"
+        fi
+        return 1
+    fi
+}
+
 # Check if exactly one argument is provided
 if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 {g|be|fs|de}"
+    echo "Usage: $0 {all|g|be|fs|de}"
     exit 1
 fi
+
+ARG=$1
 
 # Validate the argument
-case "$1" in
-    g|be|fs|de)
-        TYPE=$1
-        ;;
-    *)
-        echo "Error: Invalid argument '$1'. Must be one of: g, be, fs, de"
-        echo "Usage: $0 {g|be|fs|de}"
-        exit 1
-        ;;
-esac
-
-INPUT_FILE="logan_resume_${TYPE}.xtx"
-OUTPUT_FILE="logan_resume_${TYPE}.pdf"
-TMP_DIR="latex_output"
-
-# Check if the input file exists
-if [ ! -f "$INPUT_FILE" ]; then
-    echo "Error: Input file '$INPUT_FILE' not found."
-    exit 1
-fi
-
-echo "Building ${OUTPUT_FILE} from ${INPUT_FILE}..."
-
-mkdir -p "$TMP_DIR"
-xelatex -output-directory="$TMP_DIR" "$INPUT_FILE"
-
-# Check if xelatex was successful and created the PDF
-# Note: xelatex outputs the PDF with the same base name as the input .xtx file
-if [ -f "${TMP_DIR}/logan_resume_${TYPE}.pdf" ]; then
-    mv "${TMP_DIR}/logan_resume_${TYPE}.pdf" "${OUTPUT_FILE}"
-    echo "Successfully created ${OUTPUT_FILE}"
+valid_arg=false
+if [ "$ARG" == "all" ]; then
+    valid_arg=true
 else
-    echo "Error: Failed to create ${OUTPUT_FILE}. Check LaTeX logs in ${TMP_DIR}."
-    # Optionally keep the tmp dir for debugging: rm -rf "$TMP_DIR"
+    for type in "${RESUME_TYPES[@]}"; do
+        if [ "$ARG" == "$type" ]; then
+            valid_arg=true
+            break
+        fi
+    done
+fi
+
+if ! $valid_arg; then
+    echo "Error: Invalid argument '$ARG'. Must be one of: all, g, be, fs, de"
+    echo "Usage: $0 {all|g|be|fs|de}"
     exit 1
 fi
 
-echo "Build complete."
+
+# --- Main logic based on argument ---
+
+if [ "$ARG" == "all" ]; then
+    echo "Building all resume types..."
+    overall_success=true
+    for type in "${RESUME_TYPES[@]}"; do
+        if ! build_resume "$type"; then
+            overall_success=false
+        fi
+    done
+
+    if $overall_success; then
+        echo "All builds completed successfully."
+        # Optionally clean up tmp dir on full success
+        # rm -rf "$TMP_DIR"
+    else
+        echo "Some builds failed. Check logs in ${TMP_DIR}."
+        exit 1
+    fi
+else
+    # Argument is already validated as a single type here
+    if ! build_resume "$ARG"; then
+        exit 1
+    fi
+fi
+
+echo "Build process finished."
