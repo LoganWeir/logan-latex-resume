@@ -12,6 +12,14 @@ Wanted to use LaTeX to more easily adapt my resume to job postings, and I was tr
 
 This is a fork of [Deedy-Resume-Reversed by ZDTaylor](https://github.com/ZDTaylor/Deedy-Resume-Reversed).
 
+Built with the help of Aider and Gemini
+
+# Usage
+
+`./bin/build {all|g|be|fs|de}`
+
+Build options are either `all` (self-explanatory), `be` (backend eng), `fs` (fullstack eng), `de` (data eng), or `g` (general)
+
 # Dependencies
 
 Compiles with **XeTeX**
