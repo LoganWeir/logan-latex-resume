@@ -34,11 +34,10 @@
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
-    \item Built the customer self-help layer and maintenance mode which together reduced support calls by 30\%.
+    \item Built the customer self-help layer and maintenance mode which together reduced support calls by ~33\%.
     \item Built appointment data pipeline, migrated to realtime solution so support could jump into ongoing appointments w/ context.
-    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 50\%.
-    % \item Automated robot hard drive bringup with Ansible.
-    % \item Designed and built experimental top coat and gel coat GUI's. Recorded A/V content for the GUI and acted as a hand model.
+    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 55\%.
+    \item Automated robot hard drive bringup with Ansible.
   \end{tightemize}
   \sectionsep
 
@@ -68,7 +67,7 @@
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Dec 2020 - Nov 2021)}
   \hspace*{1em}\begin{tightemize}
       \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
-      \item Drove 'Catalog' service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
+      \item Designed and drove 'Catalog' API update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
   \end{tightemize}
   \vspace{6pt} % Add some space between the roles
 
@@ -102,84 +101,6 @@
 %           COLUMN TWO               %
 %                                    %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{minipage}[t]{0.33\textwidth}
-  % Invisible element to align both columns at the top of the page
-  \vspace{0pt}
-
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %           CONTACT                  %
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \section{Contact}
-  \href{mailto:loganweir@gmail.com}{loganweir@gmail.com}\\
-  \href{tel:14158162711}{(415) 816-2711}
-  \sectionsepright
-
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %           LINKS                    %
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \section{Links}
-  \href{https://www.linkedin.com/in/loganweir/}{linkedin.com/in/loganweir/}\\
-  \href{https://github.com/LoganWeir}{github.com/LoganWeir}
-  \sectionsepright
-
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %           SKILLS                   %
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \section{Skills}
-
-  \subsection{Coding}
-  Python\\
-  Typescript, React\\
-  HTML, SCSS
-  \sectionsepright
-
-  \subsection{Data}
-  SQL, Postgres, MongoDB\\
-  Pubsub, Airflow\\
-  PySpark, Databricks, Bigquery\\
-  Looker, Sisence\\
-  Qubole, Presto
-  \sectionsepright
-
-  \subsection{Infrastructure}
-  GCP, GCS, GCE, GAE\\
-  Docker, Ansible, Terraform\\
-  Retool, Datadog, Sentry
-  \sectionsepright
-
-  \subsection{Management}
-  Hiring, PIPs\\
-  OKR Definition, Tracking\\
-  Team Syncs, Jira, Offsites\\
-  Product, Design
-  \sectionsepright
-
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %           INDUSTRIES               %
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \section{Industries}
-  Robotics / Beauty / CSX\\
-  Retail / Computer Vision / AI\\
-  P2P Messaging / OpenGov
-  \sectionsepright
-
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %           EDUCATION                %
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \section{Education}
-
-  \education{Galvanize}{Data Science Bootcamp\\Spring 2018}
-  \sectionsepright
-
-  \education{Fordham University}{B.A. in Economics\\Class of 2012}
-  \sectionsepright
-
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %           CERTIFICATIONS           %
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \section{Certifications}
-  \raggedright American Red Cross Lifeguarding and First Aid Certification
-
-\end{minipage} % End Column Two
+\input{column_two_content}
 
 \end{document}
