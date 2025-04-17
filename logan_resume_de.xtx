@@ -33,8 +33,8 @@
   % --- Clockwork ---
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
-    \item Built ETL pipeline to coalate robot telemetry, user actions, and data from Zendesk, enabling NPS analytics.
-    \item Developed realtime data pipeline with events saved on robot, sychronized to a cloud database, and displayed in a live timeline, enabling faster response time from the support team.
+    \item Built ETL pipeline to collate robot telemetry, user actions, and data from Zendesk, enabling NPS analytics.
+    \item Developed realtime data pipeline with events saved on robot, synchronized to a cloud database, and displayed in a live timeline, enabling faster response time from the support team.
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
   \end{tightemize}
   \sectionsep
@@ -65,8 +65,8 @@
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Dec 2020 - Nov 2021)}
   \hspace*{1em}\begin{tightemize}
       \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
-      \item Drove 'Catalog' API update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
-      \item Wrote most SQL queries for the team's internal Retool applications.
+      \item Drove 'Catalog' API update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 72\%.
+      \item Wrote all SQL queries for the team's internal Retool applications.
   \end{tightemize}
   \vspace{6pt} % Add some space between the roles
 
