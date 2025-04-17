@@ -34,8 +34,7 @@
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
-    \item Built the customer self-help layer and maintenance mode which together reduced support calls by ~33\%.
-    \item Built appointment data pipeline, migrated to realtime solution so support could jump into ongoing appointments w/ context.
+    \item Developed realtime data pipeline with events saved on robot, synchronized to a cloud database, and displayed in a live timeline, enabling faster response time from the support team.
     \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 55\%.
     \item Automated robot hard drive bringup with Ansible.
   \end{tightemize}
@@ -67,7 +66,8 @@
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Dec 2020 - Nov 2021)}
   \hspace*{1em}\begin{tightemize}
       \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
-      \item Designed and drove 'Catalog' API update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
+      \item Drove 'Catalog' API update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 72\%.
+      \item Led update of internal data labeling API to decouple from both labeling GUI (Dataloop) and label storage database (DVC).
   \end{tightemize}
   \vspace{6pt} % Add some space between the roles
 
@@ -90,7 +90,7 @@
   % --- Appallicious ---
   \runsubsectionimg{img/appallicious.jpg}{Appallicious}{Data Scientist}{November 2013 - October 2018 | San Francisco, CA}
   \begin{tightemize}
-    \item Researched data sources, optimized map layer rendering, deployed containerized data-miners, build frontend and backend systems.
+    \item Researched data sources, optimized map layer rendering, deployed containerized data-miners, built frontend and backend systems.
   \end{tightemize}
   \sectionsep
 

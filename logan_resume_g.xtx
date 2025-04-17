@@ -91,7 +91,7 @@
   % --- Appallicious ---
   \runsubsectionimg{img/appallicious.jpg}{Appallicious}{Data Scientist}{November 2013 - October 2018 | San Francisco, CA}
   \begin{tightemize}
-    \item Researched data sources, optimized map layer rendering, deployed containerized data-miners, build frontend and backend systems.
+    \item Researched data sources, optimized map layer rendering, deployed containerized data-miners, built frontend and backend systems.
   \end{tightemize}
   \sectionsep
 
