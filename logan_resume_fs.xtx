@@ -35,10 +35,8 @@
   \begin{tightemize}
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
     \item Built the customer self-help layer and maintenance mode which together reduced support calls by 33\%.
-    \item Built appointment data pipeline, migrated to realtime solution so support could jump into ongoing appointments w/ context.
-    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 55\%.
-    % \item Automated robot hard drive bringup with Ansible.
-    % \item Designed and built experimental top coat and gel coat GUI's. Recorded A/V content for the GUI and acted as a hand model.
+    \item Built realtime appointment data pipeline and timeline GUI so support could jump into ongoing appointments w/ context.
+    \item Designed and built experimental top coat and gel coat GUI's. Recorded A/V content for the GUI and acted as a hand model.
   \end{tightemize}
   \sectionsep
 
@@ -68,7 +66,8 @@
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Engineering Manager} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Dec 2020 - Nov 2021)}
   \hspace*{1em}\begin{tightemize}
       \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
-      \item Drove 'Catalog' service update from start to finish, enabling 10x more SKUs per store and reducing SKU time to support by 75\%.
+      \item Drove 'Catalog' API update, enabled 10x more SKUs per store, reduced SKU time-to-support by 72\%. Built Retool app interface.
+      \item Oversaw and reviewed PR's for 'Scanogram', a React Native app for scanning and photographing SKUs in-store.
   \end{tightemize}
   \vspace{6pt} % Add some space between the roles
 
@@ -76,7 +75,7 @@
   \vspace{2pt} % Add small space before the role title
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Data Engineer, Machine Learning} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Sep 2019 - Dec 2020)}
   \hspace*{1em}\begin{tightemize}
-      \item Setup and populated company's first data warehouse in Qubole. Ran SQL classes to help democratize data. Led migration to Databricks.
+      \item Worked across teams to setup company's first data warehouse.
   \end{tightemize}
   \sectionsep % Separator after the entire Standard AI block
   % --- End of Standard AI Combined Entry ---
@@ -85,6 +84,7 @@
   \runsubsectionimg{img/hustle.jpg}{Hustle}{Machine Learning Engineer}{October 2018 - July 2019 | San Francisco, CA}
   \begin{tightemize}
     \item Built company's ETL processes in Airflow and analyzed chat sentiment to demonstrate product efficacy to clients.
+    \item Implemented chat bot in React Native app to suggest actions based on message responses.
   \end{tightemize}
   \sectionsep
 

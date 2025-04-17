@@ -20,7 +20,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %         NAME / BLURB               %
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \nameblurbsection{Logan Weir}{Proactive, well rounded engineer and manager with a decade of experience helping companies deliver value and/or squash chaos. I've helped robots paint nails and shoppers checkout with AI.}
+  \nameblurbsection{Logan Weir}{Proactive, well-rounded engineer and manager with a decade of experience helping companies deliver value and/or squash chaos. I've helped robots paint nails and shoppers checkout with AI.}
   \sectionsep
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -34,7 +34,7 @@
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
     \item Built ETL pipeline to collate robot telemetry, user actions, and data from Zendesk, enabling NPS analytics.
-    \item Developed realtime data pipeline with events saved on robot, synchronized to a cloud database, and displayed in a live timeline, enabling faster response time from the support team.
+    \item Developed real-time data pipeline with events saved on robot, synchronized to a cloud database, and displayed in a live timeline, enabling faster response time from the support team.
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
   \end{tightemize}
   \sectionsep
@@ -74,7 +74,7 @@
   \vspace{2pt} % Add small space before the role title
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Data Engineer, Machine Learning} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Sep 2019 - Dec 2020)}
   \hspace*{1em}\begin{tightemize}
-      \item Coordinated across teams to setup and populate the company's first data warehouse in Qubole. Engineered a new JDBC Socket Factory connection to integrate with Google Cloud SQL.
+      \item Coordinated across teams to set up and populate the company's first data warehouse in Qubole. Engineered a new JDBC Socket Factory connection to integrate with Google Cloud SQL.
       \item Ran company-wide SQL classes to help democratize data. 
       \item Led migration to Databricks, helped hire replacement Data Engineer.
   \end{tightemize}
@@ -91,7 +91,7 @@
   % --- Appallicious ---
   \runsubsectionimg{img/appallicious.jpg}{Appallicious}{Data Scientist}{November 2013 - October 2018 | San Francisco, CA}
   \begin{tightemize}
-    \item Researched and onboarded data sources, deployed containerized data-miners, built frontend and backend systems.
+    \item Researched and onboarded data sources, deployed containerized data miners, built frontend and backend systems.
   \end{tightemize}
   \sectionsep
 

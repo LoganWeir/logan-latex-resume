@@ -33,9 +33,9 @@
   % --- Clockwork ---
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
-    \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
     \item Developed realtime data pipeline with events saved on robot, synchronized to a cloud database, and displayed in a live timeline, enabling faster response time from the support team.
     \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 55\%.
+    \item Helped overhaul backend architecture into a threaded state machine which accepted events and state changes from a tiered dispatcher.
     \item Automated robot hard drive bringup with Ansible.
   \end{tightemize}
   \sectionsep
