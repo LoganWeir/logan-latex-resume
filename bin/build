@@ -6,9 +6,9 @@ RESUME_TYPES=("g" "be" "fs" "de")
 # Function to build a single resume type
 build_resume() {
     local type=$1
-    local input_file="logan_resume_${type}.xtx"
-    local output_file="logan_resume_${type}.pdf"
-    local tmp_pdf_path="${TMP_DIR}/logan_resume_${type}.pdf"
+    local input_file="loganweir_resume_${type}.xtx"
+    local output_file="loganweir_resume_${type}.pdf"
+    local tmp_pdf_path="${TMP_DIR}/loganweir_resume_${type}.pdf"
 
     # Check if the input file exists
     if [ ! -f "$input_file" ]; then
@@ -29,11 +29,11 @@ build_resume() {
         echo "Successfully created ${output_file}"
         return 0
     else
-        echo "Error: Failed to create ${output_file}. Check LaTeX logs in ${TMP_DIR} (e.g., ${TMP_DIR}/logan_resume_${type}.log)."
+        echo "Error: Failed to create ${output_file}. Check LaTeX logs in ${TMP_DIR} (e.g., ${TMP_DIR}/loganweir_resume_${type}.log)."
         # Attempt to show the error from the log if possible
-        if [ -f "${TMP_DIR}/logan_resume_${type}.log" ]; then
-            echo "--- Last lines of log file (${TMP_DIR}/logan_resume_${type}.log):---"
-            tail -n 15 "${TMP_DIR}/logan_resume_${type}.log"
+        if [ -f "${TMP_DIR}/loganweir_resume_${type}.log" ]; then
+            echo "--- Last lines of log file (${TMP_DIR}/loganweir_resume_${type}.log):---"
+            tail -n 15 "${TMP_DIR}/loganweir_resume_${type}.log"
             echo "--------------------------------------------------------------"
         fi
         return 1

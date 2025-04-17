@@ -1,6 +1,6 @@
-% fullstack resume
+% general resume
 
-\documentclass[]{logan_resume}
+\documentclass[]{loganweir_resume}
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
@@ -34,8 +34,10 @@
   \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
-    \item Built the customer self-help layer and maintenance mode which together reduced support calls by 33\%.
-    \item Built real-time appointment data pipeline and timeline GUI so support could jump into ongoing appointments with context.
+    \item Built the customer self-help layer and maintenance mode which together reduced support calls by ~33\%.
+    \item Built appointment data pipeline, migrated to real-time solution so support could jump into ongoing appointments with context.
+    \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 55\%.
+    \item Automated robot hard drive bringup with Ansible.
     \item Designed and built experimental top coat and gel coat GUIs. Recorded A/V content for the GUI and acted as a hand model.
   \end{tightemize}
   \sectionsep
@@ -67,7 +69,6 @@
   \hspace*{1em}\begin{tightemize}
       \item Managed a team of 7 engineers across Asia/US/Europe working on three different projects. Developed technical interviewing framework for the company's Engineering Org. Hired four engineers for my team. Ran a PIP which led to a termination.
       \item Drove 'Catalog' API update, enabled 10x more SKUs per store, reduced SKU time-to-support by 72\%. Built Retool app interface.
-      \item Oversaw and reviewed PR's for 'Scanogram', a React Native app for scanning and photographing SKUs in-store.
   \end{tightemize}
   \vspace{6pt} % Add some space between the roles
 
@@ -75,7 +76,7 @@
   \vspace{2pt} % Add small space before the role title
   \hspace*{1em}{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt}\selectfont Data Engineer, Machine Learning} \hspace{0.5em} {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt}\selectfont (Sep 2019 - Dec 2020)}
   \hspace*{1em}\begin{tightemize}
-      \item Worked across teams to set up company's first data warehouse.
+      \item Set up and populated company's first data warehouse in Qubole. Ran SQL classes to help democratize data. Led migration to Databricks.
   \end{tightemize}
   \sectionsep % Separator after the entire Standard AI block
   % --- End of Standard AI Combined Entry ---
@@ -84,14 +85,13 @@
   \runsubsectionimg{img/hustle.jpg}{Hustle}{Machine Learning Engineer}{October 2018 - July 2019 | San Francisco, CA}
   \begin{tightemize}
     \item Built company's ETL processes in Airflow and analyzed chat sentiment to demonstrate product efficacy to clients.
-    \item Implemented chat bot in React Native app to suggest actions based on message responses.
   \end{tightemize}
   \sectionsep
 
   % --- Appallicious ---
   \runsubsectionimg{img/appallicious.jpg}{Appallicious}{Data Scientist}{November 2013 - October 2018 | San Francisco, CA}
   \begin{tightemize}
-    \item Researched data sources, optimized map layer rendering, deployed containerized data miners, build frontend and backend systems.
+    \item Researched data sources, optimized map layer rendering, deployed containerized data miners, built frontend and backend systems.
   \end{tightemize}
   \sectionsep
 

@@ -1,5 +1,5 @@
 % Intro Options
-\ProvidesClass{logan_resume}
+\ProvidesClass{loganweir_resume}
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption*{%
   \PassOptionsToClass{\CurrentOption}{article}
