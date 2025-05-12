@@ -31,7 +31,7 @@
   \vspace{-6pt}
 
   % --- Clockwork ---
-  \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
+  \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Senior Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
     \item Built internal tools that enabled support ops to remotely monitor 5x more active appointments with multiple video feeds and a replicated, interactive GUI per robot.
     \item Built the customer self-help layer and maintenance mode which together reduced support calls by 33\%.

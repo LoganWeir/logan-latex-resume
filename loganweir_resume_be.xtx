@@ -31,7 +31,7 @@
   \vspace{-6pt}
 
   % --- Clockwork ---
-  \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Staff Engineer}{March 2023 - January 2025 | San Francisco, CA}
+  \runsubsectionimg{img/clockwork.jpg}{Clockwork}{Senior Engineer}{March 2023 - January 2025 | San Francisco, CA}
   \begin{tightemize}
     \item Developed real-time data pipeline with events saved on robot, synchronized to a cloud database, and displayed in a live timeline, enabling faster response time from the support team.
     \item Built routines for power cycling robot components remotely, lowering support resolution times for related issues by 55\%.
